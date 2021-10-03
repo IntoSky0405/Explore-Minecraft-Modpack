@@ -1,0 +1,10 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/explore
+
+#Files
+!/.gitignore
+!/README.md
