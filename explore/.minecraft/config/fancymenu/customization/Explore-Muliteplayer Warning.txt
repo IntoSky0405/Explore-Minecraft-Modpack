@@ -1,0 +1,63 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerWarningScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/FancyMenu/explore_background_4.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 25
+  action = addtext
+  actionid = 6fcb07cf-c68f-4d48-bb3d-74dcf73121811631428090257
+  y = 104
+  scale = 1.0
+  alignment = left
+  value = 同时 探索：终章、Team Sky、天空ag 不承受第三方服务器所带了的任何后果与法律责任！
+}
+
+customization {
+  identifier = %id=345136%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 208
+}
+
+customization {
+  identifier = %id=345136%
+  action = setbuttonlabel
+  value = 我了解了
+}
+
+customization {
+  identifier = %id=505136%
+  orientation = top-left
+  x = 183
+  action = movebutton
+  y = 209
+}
+
+customization {
+  identifier = %id=505136%
+  action = setbuttonlabel
+  value = 我不了解
+}
+
+customization {
+  identifier = %id=425112%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 184
+}
+

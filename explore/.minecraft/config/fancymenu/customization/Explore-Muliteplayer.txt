@@ -1,0 +1,161 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/FancyMenu/explore_background_3.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = top-left
+  x = 170
+  action = movebutton
+  y = 224
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 多人联合
+}
+
+customization {
+  identifier = %id=450948%
+  orientation = top-left
+  x = 272
+  action = movebutton
+  y = 224
+}
+
+customization {
+  identifier = %id=580972%
+  orientation = top-left
+  x = 401
+  action = movebutton
+  y = 248
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = top-left
+  x = 170
+  action = movebutton
+  y = 247
+}
+
+customization {
+  identifier = %id=426972%
+  orientation = top-left
+  x = 323
+  action = movebutton
+  y = 248
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = top-left
+  x = 246
+  action = movebutton
+  y = 247
+}
+
+customization {
+  identifier = %id=554948%
+  orientation = top-left
+  x = 375
+  action = movebutton
+  y = 224
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 299c6e6d-c235-4e1e-9826-e736726c47731631427317329
+  y = 208
+  scale = 1.0
+  alignment = left
+  value = §c免责声明：
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 99aa0fe5-166d-4aba-bddf-c6c495632feb1631427350586
+  y = 218
+  scale = 1.0
+  alignment = left
+  value = 多人服务器 由
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 380a218b-d1f7-4cfb-82ce-c009cea67fa21631427579805
+  y = 228
+  scale = 1.0
+  alignment = left
+  value = 非Team Sky运营、运作或监督的
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = c54fe3db-3eb9-4088-8781-540e1008bbdd1631427620983
+  y = 238
+  scale = 1.0
+  alignment = left
+  value = §a第三方服务器§f提供。
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 5bb47ad6-c9da-48be-a6fb-280c197a31411631427718846
+  y = 248
+  scale = 1.0
+  alignment = left
+  value = 探索：终章、Team Sky、天空ag在此
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = fe72139f-0368-48c8-923a-4d7b77bcdab51631427805383
+  y = 258
+  scale = 1.0
+  alignment = left
+  value = §c不承受所带来的任何责任！§f望周知！
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = 7c036cbe-f7b8-4291-94e6-e607ecc09faa1631428988545
+  y = 4
+  scale = 1.0
+  alignment = left
+  value = §b若不团结，任何力量都是弱小的。      ——拉封丹
+}
+

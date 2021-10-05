@@ -1,0 +1,251 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  minimummcversion = Minecraft 1.16.5
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/FancyMenu/explore_background_1.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 354
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=400322%
+  width = 114
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 多人联合
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 330
+  action = movebutton
+  y = 174
+}
+
+customization {
+  identifier = %id=604382%
+  width = 22
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 354
+  action = movebutton
+  y = 150
+}
+
+customization {
+  identifier = %id=400382%
+  width = 114
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 选项…
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 354
+  action = movebutton
+  y = 174
+}
+
+customization {
+  identifier = %id=502382%
+  width = 114
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 暂别探索
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 330
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=376382%
+  width = 22
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 354
+  action = movebutton
+  y = 76
+}
+
+customization {
+  identifier = %id=400298%
+  width = 114
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 探索世界
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 354
+  action = movebutton
+  y = -145
+}
+
+customization {
+  identifier = %id=400346%
+  width = 114
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 模组设置
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 93c4199b-df26-422d-9f63-2d35deeb52ef1630117358199
+  y = 233
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = afc8a4c5-3249-4aa8-a531-e53f1d898ae11630117406086
+  y = 243
+  scale = 1.0
+  alignment = left
+  value = Forge %version:forge%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = ef3adca1-4bf2-4b4d-ab37-6324c282fc1a1630117445397
+  y = 252
+  scale = 1.0
+  alignment = left
+  value = %loadedmods% 个模组已加载
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 50c6221d-aaac-40bb-affb-7460dfe390fd1630117515992
+  y = 261
+  scale = 1.0
+  alignment = left
+  value = 探索版本 §l§aBeta 2.0.0 New World
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 436
+  width = 32
+  actionid = 146057ce-a866-4b90-a362-b98ed82179da1633412182047
+  action = addbutton
+  y = 197
+  backgroundhovered = CustomMenu/FancyMenu/github_logo_hover_fe.png
+  label = 
+  backgroundnormal = CustomMenu/FancyMenu/github_logo_fe.png
+  value = https://github.com/IntoSky0405/Explore
+  height = 32
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 400
+  width = 32
+  actionid = 8838e12a-207c-4621-bf80-2284a548169e1633412182077
+  action = addbutton
+  y = 197
+  backgroundhovered = CustomMenu/FancyMenu/mcbbs_logo_hover.png
+  label = 
+  backgroundnormal = CustomMenu/FancyMenu/mcbbs_logo.png
+  value = https://www.mcbbs.net/thread-1085196-1-1.html
+  height = 32
+}
+
+customization {
+  identifier = %id=90%
+  action = hidebutton
+}
+

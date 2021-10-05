@@ -1,0 +1,142 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.WorldSelectionScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/FancyMenu/explore_background_3.png
+  action = texturizebackground
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 175
+  action = addtext
+  actionid = 835f14ed-c89b-46b0-b096-abdbbf5443f21631426305998
+  y = 212
+  scale = 1.0
+  alignment = left
+  value = §l§b%playername% §d你好，欢迎来到§a探索世界
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = top-left
+  x = 175
+  action = movebutton
+  y = 222
+}
+
+customization {
+  identifier = %id=346948%
+  width = 149
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 走进探索世界
+}
+
+customization {
+  identifier = %id=504948%
+  orientation = top-left
+  x = 326
+  action = movebutton
+  y = 222
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = 创建新的篇章
+}
+
+customization {
+  identifier = %id=582972%
+  orientation = top-left
+  x = 404
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = top-left
+  x = 176
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = top-left
+  x = 252
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = top-left
+  x = 327
+  action = movebutton
+  y = 246
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 8e3057b5-b138-4824-8eda-51511955ac491631426665417
+  y = 209
+  scale = 1.0
+  alignment = left
+  value = §n§eTips：
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 913e42a4-4084-4be7-9555-f07b76af06ca1631426735849
+  y = 220
+  scale = 1.0
+  alignment = left
+  value = 探索：终章 尚处于 §c中期测试阶段§f，
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 247fad4f-217a-41bb-acd9-e8a29150d6131631426917285
+  y = 230
+  scale = 1.0
+  alignment = left
+  value = 可能会有§a些许不足§f，
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 5352c363-2e2b-43ed-beb4-e0c564d94ff71631426981948
+  y = 240
+  scale = 1.0
+  alignment = left
+  value = 欢迎在MCBBS发布帖指出，感谢您的支持！
+}
+
