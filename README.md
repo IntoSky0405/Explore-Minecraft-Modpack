@@ -1,4 +1,4 @@
-[![title.png](https://z3.ax1x.com/2021/10/03/4LuQDU.png)](Explore)
+[![TE9eXj.png](https://s4.ax1x.com/2021/12/18/TE9eXj.png)](Explore LOGO)
 # 🌎 Explore
 A Minecraft modpack. It still in beta stage.
 
