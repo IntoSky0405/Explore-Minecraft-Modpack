@@ -1,4 +1,4 @@
-![TE9eXj.png](https://s4.ax1x.com/2021/12/18/TE9eXj.png)
+![LOGO%5BNEW%5D.png](https://github.com/IntoSky0405/Explore-Minecraft-Modpack/blob/main/LOGO%5BNEW%5D.png?raw=true)
 # 🌎 Explore
 A Minecraft modpack. It still in beta stage.
 
