@@ -1,0 +1,224 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/FancyMenu/MainMenu/explore_mainmenu_background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 138
+  action = movebutton
+  y = 144
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = 一起享受探索的乐趣
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 115
+  action = movebutton
+  y = 168
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 287
+  action = movebutton
+  y = 168
+}
+
+customization {
+  identifier = %id=400382%
+  width = 51
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 选项...
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 193
+  action = movebutton
+  y = 168
+}
+
+customization {
+  identifier = %id=502382%
+  width = 91
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = 暂停探索之旅
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 341
+  action = movebutton
+  y = 168
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 138
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 孤独的玩游戏
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 138
+  action = movebutton
+  y = 168
+}
+
+customization {
+  identifier = %id=400346%
+  width = 51
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 模组设置
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = top-left
+  x = 199
+  action = movebutton
+  y = 186
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 334
+  action = movebutton
+  y = 201
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = d39a5999-3b3f-4c52-bc8a-c31116a380e51642827434241
+  y = 249
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion% - Forge %version:forge%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = b935522e-78a1-4f1c-8ee7-267c57a3ff4a1644476711827
+  y = 239
+  scale = 1.0
+  alignment = left
+  value = Hey, Explorer %playername%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 8260eee6-8ae6-491b-b405-72a88a802ba81644476778088
+  y = 259
+  scale = 1.0
+  alignment = left
+  value = %totalmods% Mods Active, %loadedmods% Mods Loaded.
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = bff1f712-f304-441f-b331-2cc0283a8aad1644476845993
+  y = 230
+  scale = 1.0
+  alignment = left
+  value = §aExplore [Forge] Beta 2.1.0
+}
+
+customization {
+  path = CustomMenu/FancyMenu/MainMenu/explore_mainmenu_logo.png
+  orientation = top-left
+  x = 82
+  width = 320
+  action = addtexture
+  actionid = 8937f96c-857a-4ee2-8f54-1f6f0ed6a0011644549835949
+  y = 35
+  height = 80
+}
+

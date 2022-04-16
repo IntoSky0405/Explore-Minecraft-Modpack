@@ -1,0 +1,105 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = CustomMenu/DrippyLoadingScreen/explore_loading_background.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 3
+  action = editprogressbar
+  y = -83
+}
+
+customization {
+  visible = false
+  textcolor = 
+  action = editforgememoryinfo
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 155
+  textcolor = #ffffff
+  action = addtext
+  actionid = 37af4d6b-13bf-4a1c-827d-5c1ad4f1be461642143706522
+  y = 166
+  scale = 1.0
+  alignment = left
+  value = Ram Used : %usedram%/%maxram% Usage : %percentram%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 74
+  textcolor = #ffffff
+  action = addtext
+  actionid = a1bb951d-049a-453a-9ba5-393d4cf559421642144062478
+  y = 238
+  scale = 1.0
+  alignment = left
+  value = This picture is for reference only, the actual in-game shall prevail
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 130
+  textcolor = #ffffff
+  action = addtext
+  actionid = df28523a-0007-4b1a-bfe2-f7b77dddf2aa1642144893472
+  y = 247
+  scale = 1.0
+  alignment = left
+  value = Copyright    2022 IntoSky All rights reserved.
+}
+
+customization {
+  path = CustomMemu/DrippyLoadingScreen/copyright.png
+  orientation = top-left
+  x = 179
+  width = 8
+  action = addtexture
+  actionid = 778111b1-7b65-4f1e-82c8-098eae42a4f31642145300864
+  y = 248
+  height = 8
+}
+
+customization {
+  path = CustomMenu/DrippyLoadingScreen/copyright.png
+  orientation = top-left
+  x = 179
+  width = 9
+  action = addtexture
+  actionid = 18318924-bcce-488b-a4e5-a5475f5be1391644550710482
+  y = 247
+  height = 9
+}
+
+customization {
+  path = CustomMenu/DrippyLoadingScreen/explore_loading_logo.png
+  orientation = top-left
+  x = 107
+  width = 280
+  action = addtexture
+  actionid = dcf98183-7674-4b74-a38d-02e8946d092d1644551024351
+  y = 75
+  height = 70
+}
+
