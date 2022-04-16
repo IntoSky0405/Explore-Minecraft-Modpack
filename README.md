@@ -1,4 +1,5 @@
 ![LOGO%5BNEW%5D.png](https://github.com/IntoSky0405/Explore-Minecraft-Modpack/blob/main/LOGO%5BNEW%5D.png?raw=true)
+### Choose your language
 English｜[Chinese](https://github.com/IntoSky0405/Explore-Minecraft-Modpack/blob/main/README_CN.md "Chinese")
 
 # 🌎 Explore
