@@ -1,5 +1,5 @@
 ![LOGO%5BNEW%5D.png](https://github.com/IntoSky0405/Explore-Minecraft-Modpack/blob/main/LOGO%5BNEW%5D.png?raw=true)
-[英文](https://github.com/IntoSky0405 "英文")｜中文
+[英文](https://github.com/IntoSky0405/Explore-Minecraft-Modpack/blob/main/README.md "英文")｜中文
 
 # 🌎 探索
 ### 特性
